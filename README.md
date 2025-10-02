@@ -119,7 +119,7 @@ todo backup
 
 ## 🏗️ Project Structure
 
-```
+```text
 todo-cli/
 ├── cmd/                    # CLI commands
 │   ├── root.go            # Root command and app entry
@@ -143,7 +143,8 @@ todo-cli/
 ## 🎨 Output Examples
 
 ### Task List
-```
+
+```text
 📋 Todo List (3 tasks)
 ────────────────────────────────────────────────────────────
 ⭕ [1]    Buy groceries                            HIGH
@@ -157,7 +158,8 @@ todo-cli/
 ```
 
 ### Statistics
-```
+
+```text
 📊 Task Statistics
 ──────────────────────────────
 Total tasks:      3
@@ -287,6 +289,6 @@ If you find this project helpful, please consider:
 
 Feel free to reach out if you have any questions or suggestions:
 
-- 📧 Email: rajdeepsingh10789@gmail.com
+- 📧 Email: rajdeep01@[domain]
 - 🐦 Twitter: [@rajdeeptwts](https://x.com/rajdeeptwts)
 - 💼 LinkedIn: [Rajdeep Singh](https://www.linkedin.com/in/rajdeep-singh-b658a833a/)
