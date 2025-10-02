@@ -1,0 +1,17 @@
+Todo List Export
+================
+
+Total tasks: 2
+
+[1] Buy groceries
+    Status: COMPLETED
+    Priority: HIGH
+    Created: 2025-10-02 21:26
+    Completed: 2025-10-02 21:27
+
+[2] Finish Go project
+    Status: PENDING
+    Priority: MEDIUM
+    Due: 2025-10-05 00:00
+    Created: 2025-10-02 21:26
+
