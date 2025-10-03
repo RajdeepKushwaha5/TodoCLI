@@ -24,6 +24,14 @@ go build -o todo.exe
 
 ## ✨ Features
 
+### 🎨 New: Interactive Terminal UI
+- **Beautiful menu-driven interface** with color-coded display
+- **Visual progress bars** and statistics dashboard
+- **Guided workflows** for all operations
+- **Safe confirmations** for destructive actions
+- **Quick navigation** with numbered options
+
+### Core Features
 - **Add tasks** with priorities and due dates
 - **List tasks** with filtering and sorting options
 - **Complete and delete tasks** with confirmation
@@ -45,6 +53,25 @@ go install
 # Use from anywhere (requires GOPATH/bin in PATH)
 todo --help
 ```
+
+### 🎨 Interactive Terminal UI
+
+Launch the beautiful interactive terminal UI for a more visual experience:
+
+```bash
+todo ui
+```
+
+This provides a menu-driven interface with:
+- 📋 View all tasks with color-coded priorities
+- ➕ Add tasks with guided prompts
+- ✅ Complete tasks interactively
+- 🗑️ Delete tasks with confirmation
+- 📊 View detailed statistics with progress bars
+- 📤 Export tasks (CSV/TXT)
+- 💾 Backup your tasks
+
+Perfect for demonstrations and users who prefer a visual interface!
 
 ## 📖 Usage
 
@@ -104,6 +131,17 @@ todo delete 2
 todo delete 3 --force
 ```
 
+### Interactive UI Mode
+
+```bash
+# Launch the interactive terminal UI
+todo ui
+
+# Navigate using menu options 1-8
+# Clear screen anytime with 'c'
+# Exit with option 8 or 'q'
+```
+
 ### Data Management
 
 ```bash
@@ -128,7 +166,8 @@ todo-cli/
 │   ├── complete.go        # Complete task command
 │   ├── delete.go          # Delete task command
 │   ├── export.go          # Export tasks command
-│   └── backup.go          # Backup command
+│   ├── backup.go          # Backup command
+│   └── ui.go              # Interactive terminal UI
 ├── internal/              # Internal packages
 │   └── todo/              # Core todo logic
 │       ├── task.go        # Task struct and methods
