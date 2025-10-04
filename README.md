@@ -329,5 +329,5 @@ If you find this project helpful, please consider:
 Feel free to reach out if you have any questions or suggestions:
 
 - 📧 Email: <rajdeepsingh10789@gmail.com>
-- 🐦 Twitter: [@rajdeeptwts](https://x.com/rajdeeptwts)
+- 🐦 X(Twitter): [@rajdeeptwts](https://x.com/rajdeeptwts)
 - 💼 LinkedIn: [Rajdeep Singh](https://www.linkedin.com/in/rajdeep-singh-b658a833a/)
